@@ -1,0 +1,50 @@
+/*GENERAL*/
+@import "_textos";
+@import "_imagenes";
+
+ body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-decoration: none;
+}
+
+.conteiner {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-evenly;
+}
+
+.conteiner-centro {
+    width: 100%;
+    height: auto;
+}
+
+
+.productos {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+
+}
+
+.pad {
+    padding-bottom: 45px;
+    padding-top: 30px;
+    
+}
+
+.form-group {
+    padding:15px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.correct {
+    margin-right: -1rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 45px;
+}
