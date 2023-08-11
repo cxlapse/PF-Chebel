@@ -1,6 +1,6 @@
 .banner {
     height: 65vh;
-    background-image: url(/imagenes/productos.jpg);
+    background-image: url(../imagenes/productos.jpg);
     background-size: cover;
     background-position: 69%;
 
@@ -9,9 +9,19 @@
     text-align: center;
 
 }
-
 .producto {
     padding-right: 35px;
     padding-left: 35px;
+    transition: all .5s;
 }
 
+.producto img:hover{
+transform: scale(1.1);
+transition: all 5;
+}
+
+.redes-sociales {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}

@@ -1,6 +1,10 @@
 /*GENERAL*/
 @import "_textos";
 @import "_imagenes";
+@import "_botones.scss";
+@import "_links.scss";
+@import "header.scss";
+@import "footer.scss";
 
  body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -23,14 +27,8 @@ text-decoration: none;
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-
 }
 
-.pad {
-    padding-bottom: 45px;
-    padding-top: 30px;
-    
-}
 
 .form-group {
     padding:15px;
@@ -39,12 +37,4 @@ text-decoration: none;
     width: 100%;
 }
 
-.correct {
-    margin-right: -1rem;
-}
 
-footer {
-    background-color: black;
-    color: white;
-    padding: 45px;
-}
